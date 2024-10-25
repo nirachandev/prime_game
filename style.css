@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+body {
+    background: url(../imgs/background.png);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    position: relative;
+}
+
+#wallprime {
+    margin: 0;
+    padding: 0;
+}
+
+#合成数 {
+    margin: 5px;
+}
+
+#入力数字 {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px 12.5px 15px;
+}
+
+#入力数字 input::placeholder {
+    color: #fff;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+#コンテンツ {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5vh;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: rgba(95, 95, 95, 0.1);
+}
+
+h1, h2, h3, p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
