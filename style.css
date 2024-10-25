@@ -10,7 +10,7 @@
 }
 
 body {
-    background: url(../imgs/background.png);
+    background: url(./background.png);
     background-size: cover;
     backdrop-filter: blur(10px);
     background-position: 100%;
